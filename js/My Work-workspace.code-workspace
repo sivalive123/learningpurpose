@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../../Downloads/jssdktest"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Zoho Classes"
+    }
+}
