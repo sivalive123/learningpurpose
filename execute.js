@@ -1,7 +1,8 @@
-var adfaadfbjkadfnb118 = "#afdnklasdfk1bjsvajk";
-var adfabdfakjbasdfbak = "#bjkabjabjkadbjlkvalk1412";
+
 
 function aadfa1kabjkadbjka1() {
+  var adfaadfbjkadfnb118 = "#afdnklasdfk1bjsvajk";
+var adfabdfakjbasdfbak = "#bjkabjabjkadbjlkvalk1412";
   var f12bjkabjkbjka3221 = $(adfaadfbjkadfnb118).val();
   var s44ajkabdfkaadfa14 = $(adfabdfakjbasdfbak).val();
   var adfbkasdfadfjkbabjkjka = {"c1": f12bjkabjkbjka3221,"c2": s44ajkabdfkaadfa14};
