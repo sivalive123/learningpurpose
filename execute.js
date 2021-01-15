@@ -19,12 +19,12 @@ function aadfa1kabjkadbjka1() {
     "data": JSON.stringify(adfbkasdfadfjkbabjkjka)
   }
 
+  console.log(response);
+  console.log(JSON.stringify(adfbkasdfadfjkbabjkjka));
+
   $.ajax(knadkadnkadsklaadfbjjk).done(function (afdafa1231saaababa) {
     console.log(afdafa1231saaababa);
   });
-
-  console.log(response);
-  console.log(JSON.stringify(adfbkasdfadfjkbabjkjka));
 
 }
 
