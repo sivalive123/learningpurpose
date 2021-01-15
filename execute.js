@@ -33,7 +33,8 @@ function aadfa1kabjkadbjka1() {
     console.log(response);
 
   });
-  
+  console.log(response);
+
   console.log(JSON.stringify(jsondata));
   console.log(settings);
 
