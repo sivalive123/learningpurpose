@@ -16,7 +16,7 @@ function aadfa1kabjkadbjka1() {
 
   var settings = {
     "async": true,
-    "crossDomain": true,
+    "crossDomain": false,
     "url": "https://learn-29ef.restdb.io/rest/store",
     "method": "POST",
     "headers": {
