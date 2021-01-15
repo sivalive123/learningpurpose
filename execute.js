@@ -27,7 +27,8 @@ function aadfa1kabjkadbjka1() {
     "processData": false,
     "data": JSON.stringify(jsondata)
   }
- 
+  console.log(JSON.stringify(jsondata));
+
   $.ajax(settings).done(function (response) {
     console.log(response);
 
